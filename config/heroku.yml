@@ -1,0 +1,13 @@
+production:
+  app: awesomeapp
+  stack: bamboo-ree-1.8.7
+  tag: production/*
+  config:
+    BUNDLE_WITHOUT: "development:test"
+    GOOGLE_ANALYTICS: "UA-12345678-1"
+
+staging:
+  stack: cedar
+  app: zinezly-APPNAME-dev
+  config: &default
+    BUNDLE_WITHOUT: "development:test"
