@@ -3,6 +3,7 @@ source :rubygems
 gem 'sinatra'
 gem 'sinatra-jsonp', :require => 'sinatra/jsonp'
 gem 'datamapper'
+gem 'unicorn'
 
 group :development do
   gem 'shotgun'
